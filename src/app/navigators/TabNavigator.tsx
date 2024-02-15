@@ -11,11 +11,11 @@ import FontAwesome from "react-native-vector-icons/FontAwesome";
 
 import Home from "../screens/Home";
 import Search from "../screens/Search";
-import FoodLobby from "../screens/FoodLobby";
-import DynamicUserTab from "../screens/DynamicUserTab";
 import colors from "@/styles/colors";
 import {Pressable} from "react-native";
 import {useAuthenStore} from "@/store/useAuthenStore";
+import Setting from "../screens/Setting";
+import Add from "../screens/Add";
 
 const Tab = createBottomTabNavigator();
 
@@ -61,8 +61,8 @@ function TabNavigator() {
         })}
       />
       <Tab.Screen
-        name="FoodLobbyTab"
-        component={FoodLobby}
+        name="Add"
+        component={Add}
         options={() => ({
           tabBarIcon: ({color, size}) => (
             <Octicons name="diff-added" color={color} size={size} />
@@ -70,8 +70,8 @@ function TabNavigator() {
         })}
       />
       <Tab.Screen
-        name="UserTab"
-        component={DynamicUserTab}
+        name="Setting"
+        component={Setting}
         options={() => ({
           tabBarIcon: ({color, size}) => (
             <FontAwesome name="user" color={color} size={size} />

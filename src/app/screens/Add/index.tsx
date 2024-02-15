@@ -1,15 +1,12 @@
+import colors from "@/styles/colors";
 import React from "react";
+
 import {StyleSheet, Text, View} from "react-native";
 
-import {API_ENDPOINT} from "@env";
-
-import colors from "@/styles/colors";
-
-function Home(): React.JSX.Element {
+function Add(): React.JSX.Element {
   return (
     <View style={styles.container}>
-      <Text style={styles.homeText}>HOME</Text>
-      <Text style={styles.homeText}>ENV={API_ENDPOINT}</Text>
+      <Text style={styles.text}>ADD</Text>
     </View>
   );
 }
@@ -22,9 +19,9 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     height: "100%",
   },
-  homeText: {
+  text: {
     color: colors.black,
   },
 });
 
-export default Home;
+export default Add;
