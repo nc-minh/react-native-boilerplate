@@ -1,0 +1,18 @@
+{
+  "loginIntoAccount": "Đăng nhập vào tài khoản",
+  "savedOrPickFood": "Lưu món, chọn món, và hơn thế!",
+  "userNotFound": "Không tìm thấy người dùng",
+  "loginException": "Mật khẩu không đúng",
+  "anUnknownError": "Lỗi không xác định xin mời liên hệ quản trị viên!",
+  "reEnterIncorrectPassword": "Nhập lại mật khẩu không chính xác",
+  "duplicateUser": "Tài khoản đã tồn tại",
+  "accountAndPasswordCannotBeLeftBlank": "Tài khoản và mật khẩu không được để trống",
+  "username": "Tài khoản",
+  "password": "Mật khẩu",
+  "login": "Đăng nhập",
+  "register": "Đăng ký",
+  "ifDonotHaveAccount": "Nếu chưa có tài khoản?",
+  "ifAlreadyHaveAccount": "Nếu bạn đã có tài khoản?",
+  "reEnterPassword": "Nhập lại mật khẩu",
+  "logout": "Đăng xuất"
+}
